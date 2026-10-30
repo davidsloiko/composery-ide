@@ -124,10 +124,10 @@ importers:
         version: 0.9.2(@polar-sh/checkout@0.3.0(@stripe/react-stripe-js@5.6.1(@stripe/stripe-js@8.11.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@stripe/stripe-js@8.11.0)(react@19.2.8))(@polar-sh/sdk@0.48.1)(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
       '@convex-dev/resend':
         specifier: ^0.2.6
-        version: 0.2.6(convex-helpers@0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(react@19.2.8)
+        version: 0.2.10(@standard-schema/spec@1.1.0)(convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
       '@convex-dev/workflow':
         specifier: 0.4.4
-        version: 0.4.4(@convex-dev/workpool@0.4.8(convex-helpers@0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6)))(convex-helpers@0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))
+        version: 0.4.4(@convex-dev/workpool@0.4.15(@standard-schema/spec@1.1.0)(convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))
       '@vercel/analytics':
         specifier: ^2.0.1
         version: 2.0.1(next@16.2.12(@babel/core@7.29.7(supports-color@10.2.2))(@playwright/test@1.61.0)(babel-plugin-macros@3.1.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react@19.2.8)
@@ -687,6 +687,11 @@ packages:
       react: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
       react-dom: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
 
+  '@convex-dev/batch-worker@0.3.6':
+    resolution: {integrity: sha512-tR+9DaHR3jG3oqkIFX0ok/6944h7UHEQgT6HTmiuxU+lERYuYMsxA2IWwFD5yTFbCpO3YJhqXU4QdGY90sgUqQ==}
+    peerDependencies:
+      convex: ^1.43.0
+
   '@convex-dev/polar@0.9.2':
     resolution: {integrity: sha512-E9VOJ57aaFOkvUwJXp+4MlyEWlMYnfiqu8jzN8k+LxMFHr+9AMKljszllhaE53yBGSLe5kBsxzIjhc56BZEKUA==}
     peerDependencies:
@@ -705,10 +710,10 @@ packages:
       react:
         optional: true
 
-  '@convex-dev/resend@0.2.6':
-    resolution: {integrity: sha512-TUmHezzRDtZFrsEC32c5lu5JHXlTSb7zNoaXNETKI5+X1xOrAkRT3sK/HoeWFqb/Xy42h+hqnqQWwnWpGNMiFA==}
+  '@convex-dev/resend@0.2.10':
+    resolution: {integrity: sha512-+REZw2Uyt9ht37uTyxFIurntjzRL36369Gwpa53VDlRRcgh/JBxhKbFUeg8brTNiHrSiqB18FZofimi+YWuVgg==}
     peerDependencies:
-      convex: ^1.31.7
+      convex: ^1.43.0
       convex-helpers: ^0.1.106
 
   '@convex-dev/workflow@0.4.4':
@@ -718,10 +723,10 @@ packages:
       convex: ^1.36.1
       convex-helpers: ^0.1.99
 
-  '@convex-dev/workpool@0.4.8':
-    resolution: {integrity: sha512-ExUV3dVxUK/m2gQGB0PGuTNX/8pNtJM1T2Z+iprEhu7/4UBKM5flmu5odKBcffDnTzlGTPUQ2X+dwzy8l9T19g==}
+  '@convex-dev/workpool@0.4.15':
+    resolution: {integrity: sha512-eweNWj3nHnUpwT40S5qwtA/d9LbuVMXlBP6GqM5tE4+eAOkzWbudiiCz9bi1bBpFSjtnbdRfQ+PoBG/STqgj8A==}
     peerDependencies:
-      convex: ^1.36.1
+      convex: ^1.43.0
       convex-helpers: ^0.1.94
 
   '@csstools/color-helpers@6.1.0':
@@ -3828,62 +3833,73 @@ packages:
     resolution: {integrity: sha512-p1LROfS/Fcz+10UFf+uSlVrawlJNdWKHLSH1jOnVdcaa82oaWbehoEdocS6DkYJxcARzG2QpkAGLBrIiMKCRBg==}
     cpu: [arm64]
     os: [darwin]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-darwin-x64@0.8.1':
     resolution: {integrity: sha512-do28aZr3eQ0R61f3RiVOF+vvCw6oq7y/FcOU0KVCZOozH8Tr9ervprgAy7KbfWBezRODu5oa/XMdzP26vnstaA==}
     cpu: [x64]
     os: [darwin]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-freebsd-x64@0.8.1':
     resolution: {integrity: sha512-9pZxagkj2SOVWs7EF/XArW+1OiY4DHJCxoT/nybYrqNPxrDqk8KmSw3vdkE1GAOp00eaZ256230omoGTm8JdWA==}
     cpu: [x64]
     os: [freebsd]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-linux-arm-gnu@0.8.1':
     resolution: {integrity: sha512-uvXjAUndqZQIdqOHdWZMj/rwMVYGr44zLIULkfW/7FhIqMWAoC4PxTp94NsX2X3jj4B6RYF0GGO2ChOW8Ge3+Q==}
     cpu: [arm]
     os: [linux]
     libc: [glibc]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-linux-arm-musl@0.8.1':
     resolution: {integrity: sha512-f1dPM/0KCwv02dynHF0dmbW4iL7KfXIypWOCO4lh/VSLwPQYjd6RcI+LmKN6oaVhtELzBFguordipnIWbjpsKg==}
     cpu: [arm]
     os: [linux]
     libc: [musl]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-linux-arm64-gnu@0.8.1':
     resolution: {integrity: sha512-NmtkwKscALPIZNlvHAdGMYQ0J9Ss7skKGdlom8ikWPF6L/5dH/TibqLhW7w8BwACCNYTAgKQN6B4uYfomL4fZw==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-linux-arm64-musl@0.8.1':
     resolution: {integrity: sha512-RGU5VLGYzHqIH0lbHv5qWGEeaDo5Cy5AG4Y3bIO/79nvS4fR2MamHzgRzTYmlgYLZVeK9RfL52hVv5sSfvp4Xg==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-linux-x64-gnu@0.8.1':
     resolution: {integrity: sha512-274/hhQaj0WV8E88jSWvQFpqllRTtov41uLVwPJvpa4PAfD39VDb61No21v49+jjPwv7xrDOiheVDp9GvIOslg==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-linux-x64-musl@0.8.1':
     resolution: {integrity: sha512-ZkYH/op9ykMsJMGuHRGcyHlYvLvhQsTbiCClqzyu847mFukJvFP6COG8Lfq3929oBrcPwoulwuYqMUO5Jubpkw==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-win32-arm64@0.8.1':
     resolution: {integrity: sha512-jXlKxJdrX9lsNSIoLgxZ9m0wqqPUWc+KoPxltbZKXhJNCj5hQBQCBgwOkn+QXNDPxFbEi3tlMOpiOvKXQ0S1DQ==}
     cpu: [arm64]
     os: [win32]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-analyzer/binding-win32-x64@0.8.1':
     resolution: {integrity: sha512-IyyYuVmFRYB/w5iTQ3QurgjQPLh3jUNMeWnE4o3Y4FKAUDWiQAEs9J5iNpBeM1f8SrX8Dy4vJwV7E/5enkL84A==}
     cpu: [x64]
     os: [win32]
+    deprecated: yuku-analyzer runs on yuku-core since 0.14
 
   '@yuku-toolchain/types@0.8.1':
     resolution: {integrity: sha512-HcGEV3kOn9evBTm2ARYOFNKAI7sY9twQozCVd9EVdlsBlnKi0a2iv8xXxYVHFCBQpX3SvvPXBhk8lcK6NUTdNg==}
@@ -4387,6 +4403,28 @@ packages:
       hono: ^4.0.5
       react: ^17.0.2 || ^18.0.0 || ^19.0.0
       typescript: ^5.5 || ^6.0.0
+      zod: ^3.25.0 || ^4.0.0
+    peerDependenciesMeta:
+      '@standard-schema/spec':
+        optional: true
+      hono:
+        optional: true
+      react:
+        optional: true
+      typescript:
+        optional: true
+      zod:
+        optional: true
+
+  convex-helpers@0.1.131:
+    resolution: {integrity: sha512-3fTeyPEcL9YOYTPSIPJRMQNzamMRS7IMeqZoDXyt15BJT7JGqWOvVanVMG2CwPHhM/5wcmkqghjtA+AK5khAJA==}
+    hasBin: true
+    peerDependencies:
+      '@standard-schema/spec': ^1.0.0
+      convex: ^1.46.0
+      hono: ^4.0.5
+      react: ^17.0.2 || ^18.0.0 || ^19.0.0
+      typescript: ^5.5 || ^6.0.0 || ^7.0.0
       zod: ^3.25.0 || ^4.0.0
     peerDependenciesMeta:
       '@standard-schema/spec':
@@ -4919,6 +4957,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -6767,8 +6806,8 @@ packages:
     resolution: {integrity: sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg==}
     engines: {node: '>= 0.4'}
 
-  postal-mime@2.7.5:
-    resolution: {integrity: sha512-GNEXKvWFQnbgO5NlrGzVa0FmWzBZ24PersAWErttSg1Hjpf0ATxTwS5DOMGaOpTG6bUh5cTr7xi0jAD942wCJA==}
+  postal-mime@2.7.6:
+    resolution: {integrity: sha512-UUlyE2KlxmvwMGq060onF/VWU3zD6dVW31FwokQ5v26jWd35fbs2MoTFzh+jXnPwAyV2MULMKXcBInGOl5TO6Q==}
 
   postcss-selector-parser@7.1.4:
     resolution: {integrity: sha512-HeP7D2wyhkR+XaK6v4W8oRF62Dsz4flyuczALJp61GckGm42u1saSSJ/0auvcBqxs3jMRFEcPK34At/0JBKdOg==}
@@ -7059,6 +7098,10 @@ packages:
     resolution: {integrity: sha512-3Ki8dU1o3OVu4dwIQ2Pj+yiuP7OnEbmWAGmJ3yDRqopily5jsj8NWzPvbS89H85d6UdONKEcUnrfuHY6jN9vyw==}
     engines: {node: '>=18.0.0'}
 
+  remeda@2.56.0:
+    resolution: {integrity: sha512-PVDXhxnOm2j9eZ73g6TUUmfnfa4IRMCy0d/9yYYCmpT+I8jtvZAfBEwfr/+A4OMQDP+0HbQQ9g0zpepOLSGWiA==}
+    engines: {node: '>=18.0.0'}
+
   require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
     engines: {node: '>=0.10.0'}
@@ -7073,8 +7116,8 @@ packages:
   reselect@5.2.0:
     resolution: {integrity: sha512-AgZ3UOZm3YndfrJ4OYjgrT7bmCm/1iqkjvEfH/oYjzh6PD2qw4QuT3jjnXIrpdt4MTpMXclMT3lXbmRY+XRakw==}
 
-  resend@6.18.1:
-    resolution: {integrity: sha512-XN8XIaDdKF+ziSQ3K23ndUcyhP7U3ze2gky6SPgYkuAOq54mH4Wdhwm7QylEQ3zlz0NzdX7/l1AgmJUZbdPI/Q==}
+  resend@6.35.0:
+    resolution: {integrity: sha512-sScNQHunU2Np7oICQ/44GXif8cQ0lp2WPEo9nDtTnM1koPvgJwH/SEee8mJwYRwyIfi+uj7IetKiYspfyYBYaA==}
     engines: {node: '>=20'}
     peerDependencies:
       '@react-email/render': '*'
@@ -7333,6 +7376,9 @@ packages:
 
   standardwebhooks@1.0.0:
     resolution: {integrity: sha512-BbHGOQK9olHPMvQNHWul6MYlrRTAOKn03rOe4A8O3CLWhNf4YHBqq2HJKKC+sfqpxiBY52pNeesD6jIiLDz8jg==}
+
+  standardwebhooks@1.1.1:
+    resolution: {integrity: sha512-bCbX9ZEyFkWPsRz7Bl3NuQUJohmwGSev/yhr7vhaGPlc4AfIrspIRa6cPTBuI1ItmrTDJ4d/S2hCsfe4+vQGnQ==}
 
   statuses@1.5.0:
     resolution: {integrity: sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==}
@@ -8728,6 +8774,17 @@ snapshots:
       - typescript
       - utf-8-validate
 
+  '@convex-dev/batch-worker@0.3.6(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)':
+    dependencies:
+      convex: 1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6)
+      convex-helpers: 0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
+    transitivePeerDependencies:
+      - '@standard-schema/spec'
+      - hono
+      - react
+      - typescript
+      - zod
+
   '@convex-dev/polar@0.9.2(@polar-sh/checkout@0.3.0(@stripe/react-stripe-js@5.6.1(@stripe/stripe-js@8.11.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@stripe/stripe-js@8.11.0)(react@19.2.8))(@polar-sh/sdk@0.48.1)(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)':
     dependencies:
       '@polar-sh/checkout': 0.3.0(@stripe/react-stripe-js@5.6.1(@stripe/stripe-js@8.11.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@stripe/stripe-js@8.11.0)(react@19.2.8)
@@ -8751,30 +8808,41 @@ snapshots:
     optionalDependencies:
       react: 19.2.8
 
-  '@convex-dev/resend@0.2.6(convex-helpers@0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(react@19.2.8)':
+  '@convex-dev/resend@0.2.10(@standard-schema/spec@1.1.0)(convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)':
     dependencies:
       '@convex-dev/rate-limiter': 0.3.2(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(react@19.2.8)
-      '@convex-dev/workpool': 0.4.8(convex-helpers@0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))
+      '@convex-dev/workpool': 0.4.15(@standard-schema/spec@1.1.0)(convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
       convex: 1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6)
-      convex-helpers: 0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
-      remeda: 2.39.0
-      resend: 6.18.1
+      convex-helpers: 0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
+      remeda: 2.56.0
+      resend: 6.35.0
       svix: 1.99.1
     transitivePeerDependencies:
       - '@react-email/render'
+      - '@standard-schema/spec'
+      - hono
       - react
+      - typescript
+      - zod
 
-  '@convex-dev/workflow@0.4.4(@convex-dev/workpool@0.4.8(convex-helpers@0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6)))(convex-helpers@0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))':
+  '@convex-dev/workflow@0.4.4(@convex-dev/workpool@0.4.15(@standard-schema/spec@1.1.0)(convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))':
     dependencies:
-      '@convex-dev/workpool': 0.4.8(convex-helpers@0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))
+      '@convex-dev/workpool': 0.4.15(@standard-schema/spec@1.1.0)(convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
       async-channel: 0.2.0
       convex: 1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6)
-      convex-helpers: 0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
+      convex-helpers: 0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
 
-  '@convex-dev/workpool@0.4.8(convex-helpers@0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))':
+  '@convex-dev/workpool@0.4.15(@standard-schema/spec@1.1.0)(convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3))(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)':
     dependencies:
+      '@convex-dev/batch-worker': 0.3.6(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
       convex: 1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6)
-      convex-helpers: 0.1.120(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
+      convex-helpers: 0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3)
+    transitivePeerDependencies:
+      - '@standard-schema/spec'
+      - hono
+      - react
+      - typescript
+      - zod
 
   '@csstools/color-helpers@6.1.0': {}
 
@@ -12299,6 +12367,16 @@ snapshots:
       typescript: 6.0.3
       zod: 4.4.3
 
+  convex-helpers@0.1.131(@standard-schema/spec@1.1.0)(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6))(hono@4.12.33)(react@19.2.8)(typescript@6.0.3)(zod@4.4.3):
+    dependencies:
+      convex: 1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6)
+    optionalDependencies:
+      '@standard-schema/spec': 1.1.0
+      hono: 4.12.33
+      react: 19.2.8
+      typescript: 6.0.3
+      zod: 4.4.3
+
   convex-test@0.0.54(convex@1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6)):
     dependencies:
       convex: 1.43.0(@clerk/react@6.12.10(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(bufferutil@4.1.0)(react@19.2.8)(utf-8-validate@6.0.6)
@@ -15307,7 +15385,7 @@ snapshots:
 
   possible-typed-array-names@1.1.0: {}
 
-  postal-mime@2.7.5: {}
+  postal-mime@2.7.6: {}
 
   postcss-selector-parser@7.1.4:
     dependencies:
@@ -15707,6 +15785,8 @@ snapshots:
 
   remeda@2.39.0: {}
 
+  remeda@2.56.0: {}
+
   require-directory@2.1.1: {}
 
   require-from-string@2.0.2: {}
@@ -15715,10 +15795,10 @@ snapshots:
 
   reselect@5.2.0: {}
 
-  resend@6.18.1:
+  resend@6.35.0:
     dependencies:
-      postal-mime: 2.7.5
-      standardwebhooks: 1.0.0
+      postal-mime: 2.7.6
+      standardwebhooks: 1.1.1
 
   resolve-from@4.0.0: {}
 
@@ -16127,6 +16207,11 @@ snapshots:
       type-fest: 0.7.1
 
   standardwebhooks@1.0.0:
+    dependencies:
+      '@stablelib/base64': 1.0.1
+      fast-sha256: 1.3.0
+
+  standardwebhooks@1.1.1:
     dependencies:
       '@stablelib/base64': 1.0.1
       fast-sha256: 1.3.0
