@@ -8,7 +8,7 @@ export const COMPOSERY_VOLUME_NAMES = [
 ] as const;
 // renovate: datasource=docker depName=caddy
 export const CADDY_IMAGE =
-	"caddy:2.11.4-alpine@sha256:5f5c8640aae01df9654968d946d8f1a56c497f1dd5c5cda4cf95ab7c14d58648";
+	"caddy:2.11.9-alpine@sha256:0bbb055bda6793c999bde78b1b5ce3e89f829fb031af2cf50056ea1246559fee";
 
 // The port the host's own sshd listens on, which is deliberately not 22.
 //
