@@ -3,7 +3,7 @@
 ARG NODE_IMAGE=node:24.18.1-trixie-slim@sha256:ac39e4b5fcb2b1b34b20364fd58b2e898f3bb80731ee6f62a7536f9df3d6aadc
 
 # Keep the exact Caddy release aligned with the outer-edge Compose recipes.
-FROM caddy:2.11.4-alpine@sha256:5f5c8640aae01df9654968d946d8f1a56c497f1dd5c5cda4cf95ab7c14d58648 AS caddy-bin
+FROM caddy:2.11.9-alpine@sha256:0bbb055bda6793c999bde78b1b5ce3e89f829fb031af2cf50056ea1246559fee AS caddy-bin
 
 # Build the IDE from the in-repo hard fork.
 FROM ${NODE_IMAGE} AS ide-base
